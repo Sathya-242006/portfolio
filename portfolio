@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathya Priya B - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Sathya Priya B</h1>
+      <p>Web Developer | Programmer | Innovator</p>
+    </div>
+  </header>
+  
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello, I'm Sathya Priya B. I'm a passionate web developer and software engineer with a love for building elegant solutions. I specialize in frontend and backend technologies like HTML, CSS, JavaScript, ReactJS, Python, and more. I strive to create intuitive and visually pleasing websites that provide a great user experience.</p>
+    </div>
+  </section>
+  
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>MySQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>Java</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="number">Phone Number:</label>
+        <input type="tel" id="number" name="number" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="submit" id="submitButton">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sathya Priya B. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
