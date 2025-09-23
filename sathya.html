@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathya Priya B - Portfolio</title>
+  <style>
+    /* Resetting margins, paddings, and font */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Body and basic layout */
+    body {
+      background: linear-gradient(135deg, #6a5acd, #b6a2e8); /* Soft gradient background */
+      color: #fff;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      background: #4b0082; /* Dark indigo background */
+      color: #fff;
+      text-align: center;
+      padding: 40px 0;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for the header */
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    /* About Me Section */
+    section.about {
+      background-color: #fff;
+      color: #333;
+      border-radius: 10px;
+      margin-top: 40px;
+      padding: 30px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      color: #4b0082; /* Indigo text color */
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    /* Skills Section */
+    section.skills {
+      background: #f9f9f9;
+      color: #333;
+      padding: 30px;
+      margin-top: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    ul li {
+      background-color: #6a5acd;
+      color: #fff;
+      padding: 15px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    ul li:hover {
+      transform: translateY(-5px);
+      background-color: #4b0082; /* Darker purple on hover */
+    }
+
+    /* Contact Me Section */
+    section.contact-me {
+      background: #fff;
+      color: #333;
+      padding: 40px;
+      margin-top: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    section.contact-me h2 {
+      font-size: 2.5rem;
+      color: #4b0082;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    section.contact-me p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    /* Contact Form Section */
+    section.contact {
+      background: #4b0082;
+      color: #fff;
+      padding: 40px;
+      margin-top: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: grid;
+      gap: 20px;
+    }
+
+    form label {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    form input {
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      width: 100%;
+      box-sizing: border-box;
+      transition: border-color 0.3s;
+    }
+
+    form input:focus {
+      border-color: #6a5acd;
+      outline: none;
+    }
+
+    form button {
+      padding: 15px 30px;
+      background-color: #6a5acd;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #483d8b; /* Darker shade of purple */
+      transform: translateY(-3px);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      section h2 {
+        font-size: 2rem;
+      }
+
+      ul {
+        justify-content: center;
+      }
+
+      ul li {
+        font-size: 1rem;
+        padding: 10px;
+      }
+
+      form label {
+        font-size: 1rem;
+      }
+
+      form input, form button {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Sathya Priya B</h1>
+      <p>Web Developer | Programmer | Innovator</p>
+    </div>
+  </header>
+  
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello, I'm Sathya Priya B. I'm a passionate web developer and software engineer with a love for building elegant solutions. I specialize in frontend and backend technologies like HTML, CSS, JavaScript, ReactJS, Python, and more. I strive to create intuitive and visually pleasing websites that provide a great user experience.</p>
+    </div>
+  </section>
+  
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>MySQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>Java</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section class="contact-me">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p><strong>Mobile:</strong> 6369264739</p>
+      <p><strong>Email:</strong> <a href="mailto:bsathyapriya33@gmail.com" style="color: #4b0082;">bsathyapriya33@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="number">Phone Number:</label>
+        <input type="tel" id="number" name="number" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="submit" id="submitButton">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sathya Priya B. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript for form handling
+
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Get values from the form fields
+      const name = document.getElementById('name').value;
+      const number = document.getElementById('number').value;
+      const email = document.getElementById('email').value;
+
+      // Just to show the output in console for now
+      console.log('Name:', name);
+      console.log('Phone Number:', number);
+      console.log('Email:', email);
+
+      // Show an alert that the form has
